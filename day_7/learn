@@ -1,0 +1,15 @@
+match l.split():
+    case [_, _, "/"]:
+        stack = []
+    case [_, _, ".."]:
+        stack.pop()
+    case [_, _, x]:
+        stack.append(x)
+    case [a, _] if a.isdigit():
+        for i in range(len(stack) + 1):
+            path = "/" + "/".join(stack[:i])
+            sizes[path] += int(a)
+
+
+anytree
+line splicing
