@@ -1,0 +1,15 @@
+:%s/\D/ /g⟨Enter⟩
+qaqqadiwww@-⟨Ctrl+X⟩^diw$@-⟨Ctrl+X⟩-@aq
+@a
+:g/-.*-/d⟨Enter⟩
+:v/\v<0|-/d⟨Enter⟩
+⟨Ctrl+G⟩
+
+
+
+part 2
+For part 2, reload your initial input and do the same basic thing but replace the qa and @a lines with:
+
+qbqqbdiw$@-⟨Ctrl+X⟩^diw@-⟨Ctrl+X⟩-@bq
+@b
+
